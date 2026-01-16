@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="400" fill="#00A1DE"/>
+  <rect y="400" width="1200" height="200" fill="#FAD201"/>
+  <rect y="600" width="1200" height="200" fill="#20603D"/>
+  <g transform="translate(1000, 200)">
+    <circle r="60" fill="#E5BE01"/>
+    <g id="sun-rays">
+        <path d="M0,-85 L10,-130 L-10,-130 Z" fill="#E5BE01" />
+        <path d="M0,85 L10,130 L-10,130 Z" fill="#E5BE01" />
+        <path d="M85,0 L130,10 L130,-10 Z" fill="#E5BE01" />
+        <path d="M-85,0 L-130,10 L-130,-10 Z" fill="#E5BE01" />
+        <path d="M60,-60 L95,-95 L80,-105 Z" fill="#E5BE01" />
+        <path d="M60,60 L95,95 L80,105 Z" fill="#E5BE01" />
+        <path d="M-60,-60 L-95,-95 L-80,-105 Z" fill="#E5BE01" />
+        <path d="M-60,60 L-95,95 L-80,105 Z" fill="#E5BE01" />
+        <!-- More rays for detail -->
+        <path d="M30,-75 L45,-120 L20,-120 Z" fill="#E5BE01" transform="rotate(22.5)"/>
+        <path d="M30,-75 L45,-120 L20,-120 Z" fill="#E5BE01" transform="rotate(67.5)"/>
+        <path d="M30,-75 L45,-120 L20,-120 Z" fill="#E5BE01" transform="rotate(112.5)"/>
+        <path d="M30,-75 L45,-120 L20,-120 Z" fill="#E5BE01" transform="rotate(157.5)"/>
+        <path d="M30,-75 L45,-120 L20,-120 Z" fill="#E5BE01" transform="rotate(202.5)"/>
+        <path d="M30,-75 L45,-120 L20,-120 Z" fill="#E5BE01" transform="rotate(247.5)"/>
+        <path d="M30,-75 L45,-120 L20,-120 Z" fill="#E5BE01" transform="rotate(292.5)"/>
+        <path d="M30,-75 L45,-120 L20,-120 Z" fill="#E5BE01" transform="rotate(337.5)"/>
+    </g>
+  </g>
+</svg>
